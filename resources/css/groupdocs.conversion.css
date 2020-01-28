@@ -61,7 +61,7 @@ a{
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -70px;
+  margin-top: -200px;
   margin-left: -326px;
 }
 
@@ -81,4 +81,26 @@ a{
 
 #container > h4{
   text-align: right;
+}
+
+#container > div#product-description{
+  font-size: 13px;
+  margin-top: 70px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#container > div#product-description > div{
+  width: 200px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+#container > div#product-description > a.dot-net{
+  color: #0a9cfe;
+}
+
+#container > div#product-description > a.java{
+  color: #ff2a8e;
 }
